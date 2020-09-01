@@ -1,0 +1,11 @@
+include:
+  - project: 'devops/devops-tools'
+    ref: ARCH-218
+    file: '/templates/.gitlab-ci-template.yml'
+
+variables:
+  SAST_EXCLUDED_PATHS: "frontend/src/assets/private/**"
+  CI_IS_DEPLOY_OLD: "true"
+
+
+#testing1
