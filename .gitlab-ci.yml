@@ -1,6 +1,6 @@
 include:
   - project: 'devops/devops-tools'
-    ref: master
+    ref: sec-before-script
     file: '/templates/.gitlab-ci-template.yml'
 
 variables:
