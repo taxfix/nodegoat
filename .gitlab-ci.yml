@@ -6,7 +6,7 @@ include:
 variables:
   SAST_EXCLUDED_PATHS: "frontend/src/assets/private/**"
   CI_IS_DEPLOY_OLD: "true"
-  DS_PYTHON_VERSION: 2
+  DS_PYTHON_VERSION: 3
 
 
 #testing4
