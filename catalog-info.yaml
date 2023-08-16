@@ -3,11 +3,9 @@ kind: Component
 metadata:
   name: nodegoat
   description: A tool to learn OWASP Top 10 for node.js developers
-  annotations: []
 spec:
   type: service
   lifecycle: production
   domain: tech-foundation
   system: security
   owner: security
-relations: []
