@@ -5,7 +5,7 @@ metadata:
   description: A tool to learn OWASP Top 10 for node.js developers
 spec:
   type: service
-  lifecycle: production
+  lifecycle: deprecated
   domain: tech-foundation
   system: security
   owner: security
